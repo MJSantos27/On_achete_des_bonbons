@@ -6,9 +6,8 @@ P = Prix du bonbon
 B = N° de bonbons acheter
 
 DEBUT
-A = 18.85
-P = 0
-B = 0
+ECRIRE " Entrez votre argent "
+LIRE argent
 
 TANTQUE P <= A
 P prend la valeur P + 0.85
