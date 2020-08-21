@@ -7,7 +7,8 @@ B = Nombre de bonbons acheter (entier)
 
 
 DEBUT
-A = 18.85
+ECRIRE " Entrez votre argent "
+LIRE Argent
 P = 0
 B = 0
 
