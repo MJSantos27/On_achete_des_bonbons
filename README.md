@@ -1,4 +1,9 @@
 # On_achete_des_bonbons
+Variable :
+
+A = Argent de poche
+P = Prix du bonbon
+B = N° de bonbons acheter
 
 DEBUT
 A = 18.85
