@@ -12,7 +12,7 @@ LIRE Argent
 P = 0
 B = 0
 
-TANTQUE P <= A
+TANTQUE P <= Argent
 P prend la valeur P + 0.85
 B prend la valeur B + 1
 
