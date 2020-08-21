@@ -1,5 +1,11 @@
 # On_achete_des_bonbons
 
+Variable
+A = argent de poche (réel)
+P = prix du bonbon (réel)
+B = Nombre de bonbons acheter (entier) 
+
+
 DEBUT
 A = 18.85
 P = 0
