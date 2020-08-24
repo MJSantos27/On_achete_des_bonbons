@@ -6,16 +6,34 @@ P = Prix du bonbon
 B = N° de bonbons acheter
 
 DEBUT
-ECRIRE " Entrez votre argent "
-LIRE argent
+ ECRIRE "Entrez votre argent"
+    LIRE A
+    B = 0.85
+    C = 0
 
-TANTQUE P <= A
-P prend la valeur P + 0.85
-B prend la valeur B + 1
 
-FINTANTQUE
+    SI A < B ALORS
+    ECRIRE " Vous devez rentrer minimum 0.85 = 1 bonbons"
+    FINSI
+ 
+    
+    TANTQUE A >= B FAIRE
+    ECRIRE A - B
+    A = A - B
+    ECRIRE C + 1
+    C = C + 1
+    
+    
 
-afficher B
+    FINTANTQUE
+    
+    ECRIRE " Vous pouvez acheter ",C ,"bonbons"
+    
+    SI A = 0 ALORS
+    ECRIRE " Merci Aurevoir "
+    SINON    
+    ECRIRE " Il vous reste ",A," Merci Aurevoir "
+    FINSI
 
 FIN
 
