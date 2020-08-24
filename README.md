@@ -2,8 +2,8 @@
 Variable :
 
 A = Argent de poche
-P = Prix du bonbon
-B = N° de bonbons acheter
+B = Prix du bonbon
+C = N° de bonbons acheter
 
 DEBUT
  ECRIRE "Entrez votre argent"
