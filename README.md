@@ -30,9 +30,9 @@ DEBUT
     ECRIRE " Vous pouvez acheter ",C ,"bonbons"
     
     SI A = 0 ALORS
-    ECRIRE " Merci Aurevoir "
+    ECRIRE " Merci au revoir "
     SINON    
-    ECRIRE " Il vous reste ",A," Merci Aurevoir "
+    ECRIRE " Il vous reste ",A," Merci au revoir "
     FINSI
 
 FIN
