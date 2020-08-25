@@ -5,7 +5,7 @@ A = Argent de poche
 B = Prix du bonbon
 C = N° de bonbons acheter
 
-DEBUT
+DÉBUT
  ECRIRE "Entrez votre argent"
     LIRE A
     B = 0.85
