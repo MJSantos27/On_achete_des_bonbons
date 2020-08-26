@@ -1,8 +1,8 @@
 # On_achete_des_bonbons
 
-A = Argent de poche 
-B = prix bonbon
-C = Nombre de bonbons acheter
+A = Argent de poche (reel,entier)
+B = prix bonbon (reel)
+C = Nombre de bonbons acheter (reel)
 
 
 DÉBUT
