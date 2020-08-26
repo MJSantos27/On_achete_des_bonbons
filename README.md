@@ -1,4 +1,10 @@
 # On_achete_des_bonbons
+
+A = Argent de poche 
+B = prix bonbon
+C = Nombre de bonbons acheter
+
+
 DÉBUT
    
     ECRIRE "Entrez votre argent"
