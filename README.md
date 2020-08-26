@@ -1,9 +1,9 @@
 # On_achete_des_bonbons
 Variable :
 
-A = Argent de poche
-B = 0.85 Prix du bonbon
-C = N° de bonbons acheter
+A EST ARGENT DE POCHE
+B EST LE PRIX DU BONBONS <- 0.85 
+C EST LE NOMBRE DE BONBONS ACHETER
 
 
 
