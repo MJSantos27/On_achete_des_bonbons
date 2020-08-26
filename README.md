@@ -11,7 +11,7 @@ C EST LE NOMBRE DE BONBONS ACHETER
 
 DÉBUT
 
-TANTQUE A <= B
+TANTQUE A >= B
 A prend la valeur A - B
 A = A - B
 C prend la valeur C + 1
