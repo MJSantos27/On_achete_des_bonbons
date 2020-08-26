@@ -1,41 +1,22 @@
 # On_achete_des_bonbons
 
-Variable
-A = argent de poche (réel)
-P = prix du bonbon (réel)
-B = Nombre de bonbons acheter (entier) 
+Variable ( A, B, C )
+
+A EST ARGENT DE POCHE
+B EST LE PRIX DU BONBONS <- 0.85 
+C EST LE NOMBRE DE BONBONS ACHETER
 
 
-DEBUT
- ECRIRE "Entrez votre argent"
-    LIRE A
-    B = 0.85
-    C = 0
 
 
-    SI A < B ALORS
-    ECRIRE " Vous devez rentrer minimum 0.85 = 1 bonbons"
-    FINSI
- 
-    
-    TANTQUE A >= B FAIRE
-    ECRIRE A - B
-    A = A - B
-    ECRIRE C + 1
-    C = C + 1
-    
-    
+DÉBUT
 
-    FINTANTQUE
-    
-    ECRIRE " Vous pouvez acheter ",C ,"bonbons"
-    
-    SI A = 0 ALORS
-    ECRIRE " Merci Aurevoir "
-    SINON    
-    ECRIRE " Il vous reste ",A," Merci Aurevoir "
-    FINSI
+TANTQUE A <= B
+A prend la valeur A - B
+A = A - B
+C prend la valeur C + 1
+C = C + 1
+FINTANTQUE
+afficher C
 
 FIN
-
-
