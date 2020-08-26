@@ -2,7 +2,7 @@
 
 A = Argent de poche (reel,entier)
 B = prix bonbon (reel)
-C = Nombre de bonbons acheter (reel)
+C = Nombre de bonbons acheter (entier)
 
 
 DÉBUT
