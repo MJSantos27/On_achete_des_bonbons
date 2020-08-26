@@ -1,5 +1,5 @@
 # On_achete_des_bonbons
-Variable :
+Variable ( A, B, C )
 
 A EST ARGENT DE POCHE
 B EST LE PRIX DU BONBONS <- 0.85 
