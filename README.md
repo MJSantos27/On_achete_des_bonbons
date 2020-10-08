@@ -11,29 +11,30 @@ C <-Nombre_de_bonbons_acheter (entier)
 DÉBUT
    
     ECRIRE ("Entrez votre argent")
-    LIRE A
-    B <-0.85
-    C <-0
+    LIRE Argent_de_poche
+    
+    prix_bonbon (reel) <- 0.85
+    Nombre_de_bonbons_acheter (entier) <- 0
 
 
-    SI A < B ALORS
+    SI Argent_de_poche < prix_bonbon ALORS
     ECRIRE (" Vous devez rentrer minimum 0.85 = 1 bonbons")
     FINSI
  
     
-    TANTQUE A >= B FAIRE
-    ECRIRE A - B
-    A <-A - B
-    ECRIRE C + 1
-    C <- C + 1
+    TANTQUE Argent_de_poche >= prix_bonbon FAIRE
+    ECRIRE Argent_de_poche - prix_bonbon
+    Argent_de_poche <- Argent_de_poche - prix_bonbon
+    ECRIRE Nombre_de_bonbons_acheter  + 1
+    Nombre_de_bonbons_acheter  <- Nombre_de_bonbons_acheter  + 1
     FINTANTQUE
     
-    ECRIRE " Vous pouvez acheter ", C ,"bonbons"
+    ECRIRE " Vous pouvez acheter ", Nombre_de_bonbons_acheter  ,"bonbons"
     
-    SI A = 0 ALORS
+    SI Argent_de_poche = 0 ALORS
     ECRIRE (" Merci Aurevoir ")
     SINON    
-    ECRIRE (" Il vous reste ", A ," Merci Aurevoir ")
+    ECRIRE (" Il vous reste ", Argent_de_poche ," Merci Aurevoir ")
     FINSI
 
 FIN
